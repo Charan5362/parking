@@ -358,41 +358,6 @@ parkingSlotsList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         }
     }
 
-    // private void viewDetails() {
-    //     // Get the selected slot number from the list
-    //     String selectedSlot = parkingSlotsList.getSelectedValue();
-
-    //     // Check if a slot is selected
-    //     if (selectedSlot == null) {
-    //         JOptionPane.showMessageDialog(frame, "No slot selected!", "Error", JOptionPane.ERROR_MESSAGE);
-    //         return;
-    //     }
-
-    //     // Find the parking slot by the selected slot number
-    //     ParkingSlot selectedParkingSlot = findParkingSlotBySlotNumber(selectedSlot);
-
-    //     // Display details in the text area
-    //     detailsTextArea.setText("");
-    //     if (selectedParkingSlot != null) {
-    //         detailsTextArea.append("Slot Number: " + selectedParkingSlot.getSlotNumber() + "\n");
-    //         detailsTextArea.append("Vehicle Type: " + selectedParkingSlot.getVehicleType() + "\n");
-    //         detailsTextArea.append("License Plate: " + selectedParkingSlot.getLicensePlateNumber() + "\n");
-    //     }
-    // }
-    // private void clearParkingList() {
-    //     // Clear the list model and parking slots
-    //     parkingSlotsListModel.clear();
-    //     parkingSlots.clear();
-
-    //     // Save the updated parking slots to the file
-    //     saveParkingSlots();
-
-    //     // Clear the details text area
-    //     detailsTextArea.setText("");
-
-    //     // Display a success message
-    //     JOptionPane.showMessageDialog(frame, "Parking list cleared!", "Success", JOptionPane.INFORMATION_MESSAGE);
-    // }
 
     private void clearParkingList() {
         // Clear the list model and parking slots
